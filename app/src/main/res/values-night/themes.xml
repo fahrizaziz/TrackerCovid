@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TrackerCovid19" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700_black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TextView"/>
+    <style name="TextView.PoppinsBlod24sp0C5483">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextView.PoppinsBlod14sp0C5483">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextView.PoppinsBlod14sp990C5483">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/text_color_desc</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.PoppinsSemiBlod12sp4EDDDD">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color_cases</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextView.PoppinsSemiBlod14spF2B900">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color_confirm</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextView.PoppinsSemiBlod14sp00CC99">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color_recovered</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextView.PoppinsSemiBlod14spF76353">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color_deaths</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextView.PoppinsSemiBlod12sp990C5483">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="cardstyle"/>
+    <style name="cardstyle.styleMatginAll">
+        <item name="android:layout_marginBottom">@dimen/marginVertiCard</item>
+        <item name="android:layout_marginTop">@dimen/marginVertiCard</item>
+        <item name="android:layout_marginStart">@dimen/marginHorizCard</item>
+        <item name="android:layout_marginEnd">@dimen/marginHorizCard</item>
+    </style>
+</resources>
